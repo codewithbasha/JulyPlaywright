@@ -19,7 +19,7 @@ test(`Login with user : ${credential.username}`, async ({ page }) => {
 
     const inventorypage = new InventoryPage(page)
 
-    await inventorypage.addtoCart()
+    await inventorypage.addProduct()
 
 })
 
