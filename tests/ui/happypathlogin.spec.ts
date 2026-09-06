@@ -7,7 +7,8 @@ import fs from 'fs';
 
 test.describe('Data-driven Login Tests', () => {
 
-    const users = JSON.parse(fs.readFileSync('../playwright-project/testdata/testData.json', 'utf-8'))
+    // const users = JSON.parse(fs.readFileSync('../playwright-project/testdata/testData.json', 'utf-8'))
+    const users = JSON.parse(fs.readFileSync('testdata/testData.json', 'utf-8'))
 
     for (const user of users) {
 
